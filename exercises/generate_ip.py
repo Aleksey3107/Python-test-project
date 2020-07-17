@@ -2,7 +2,7 @@ import random
 
 
 def generate_ipv4_list():
-	data = set([])
+	data = set()
 	while len(data) <= 5000000:
 		data.add('.'.join('%s' % random.randint(0, 256) for i in range(4)))
 	return data
