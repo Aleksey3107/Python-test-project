@@ -4,3 +4,5 @@
 /Sample_data
 /*.txt
 /exercises/request_to_wiremock.py
+venv
+.idea/
