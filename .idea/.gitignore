@@ -3,4 +3,4 @@
 /workspace.xml
 /Sample_data
 /*.txt
-/request_to_wiremock.py
+/testproject/venv/exercises/request_to_wiremock.py
