@@ -5,7 +5,9 @@ def modify_list(l):
 			result.append(int(i / 2))
 		else:
 			continue
-	return result
+	l.clear()
+	l += result
+	return l
 
 
 val = [1, 2, 3, 4, 5, 6]
